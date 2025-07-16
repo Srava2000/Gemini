@@ -9,6 +9,8 @@ A sleek, Gemini-inspired conversational chat interface built with Next.js 15 App
 
 🔗 [View Live on Vercel](https://your-vercel-deployment-url.vercel.app)
 
+live link : https://gemini-pbjp-git-main-sravani-reddys-projects.vercel.app/chat
+
 
 
 ## 🧠 Features
