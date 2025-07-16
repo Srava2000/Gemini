@@ -34,7 +34,6 @@
 // }
 
 import "./globals.css";
-import { Toaster } from "react-hot-toast";
 import Themetoggle from "@/components/Themetoggle";
 import StoreInitializer from "@/components/StoreInitializer";
 
