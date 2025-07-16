@@ -35,6 +35,7 @@
 
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import Themetoggle from "@/components/Themetoggle";
 
 export default function RootLayout({
   children,
@@ -45,6 +46,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Toaster position="top-right" />
+         <Themetoggle />
         {children}
       </body>
     </html>
