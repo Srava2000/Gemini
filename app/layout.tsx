@@ -34,8 +34,7 @@
 // }
 
 import "./globals.css";
-import Themetoggle from "@/components/Themetoggle";
-import StoreInitializer from "@/components/StoreInitializer";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -44,11 +43,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-black dark:bg-zinc-900 dark:text-white transition-colors duration-300">
-        <StoreInitializer />
-        <div className="p-4 flex justify-end">
-          <Themetoggle />
-        </div>
+      <body>
+        <Toaster position="top-right" />
         {children}
       </body>
     </html>
